@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head>
+	
+	<!-- Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>To Do List</title>
+	
+	<!-- Minified bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	
+	<!-- font-awesome CSS -->
+	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+	
+	<!-- jQuery css -->
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+	<!-- My Styling -->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		
+</head><body>
+	<div class="container" id="mainContainer">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3" id="formMain">
+			
+				<div id="formTitle">
+					<i class="glyphicon glyphicon-saved"></i>
+				</div>
+				
+				<div id="formContent">
+			    	<input type="text" class="form-control" name="listItem" placeholder="Type your List Item here!">
+					<button type="button" class="btn btn-success" id="addButton">Add!</button>
+					<button type="button" class="btn btn-danger" id="clearButton">Clear List</button>
+			        <div id="listToPush">
+				        <!-- #item gets inserted into #listToPush from script.js -->
+			        </div> 
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- ================| javascript |================ -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.storage.js"></script>
+	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> 
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body></html>
